@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="/website-server-url" method="post">
+        <label for="username">UserName:</label>
+        <input type="text" id="username" name="username" value="abc@xyz.com" placeholder="john@doe.com"> <br>
+        
+        <hr>
+        
+        <label for="pwd">Password:</label>
+        <input type="password" id="pwd" > <br>
+        
+        <hr>
+
+        <label for="attachment">File:</label>
+        <input type="file" id="attachement"> <br>
+        
+        <hr>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" > <br>
+        
+        <hr>
+
+        <label for="price">Price Range:</label>
+        <input type="range" id="price"> <br>
+        
+        <hr>
+
+        <label for="btn">Click Me:</label>
+        <input type="button" id="btn" value="I am button"> <br>
+
+        <hr>
+
+        <label for="male-id">Male: </label> <input type="radio" id="male-id" name="gender" value="male"> <br>
+        <label for="female-id">Female: </label> <input type="radio" id="female-id" name="gender" value="female"> <br>
+        <label for="other-id">Other: </label> <input type="radio" id="other-id" name="gender" value="other"> <br>
+        
+        <hr>
+
+        <label for="cpp-id">C++: </label> <input type="checkbox" id="cpp-id" name="skill" value="cpp"> <br>
+        <label for="java-id">Java: </label> <input type="checkbox" id="java-id" name="skill" value="java"> <br>
+        <label for="python-id">Python: </label> <input type="checkbox" id="python-id" name="skill" value="python"> <br>
+        
+        <hr>
+
+        <label for="ide-id">Your choice of IDE: </label> 
+        <select name="ide" id="ide-id">
+            <option value="vscode">vscode</option>
+            <option value="atom">atom</option>
+            <option value="sublime">sublime</option>
+            <option value="notepad++">notepad++</option>
+        </select>
+
+        <hr>
+
+        <label for="story-id">Story: </label> <br>
+        <textarea name="story" id="story-id" cols="30" rows="10" placeholder="write your story here..."></textarea>
+
+        <hr>
+
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>

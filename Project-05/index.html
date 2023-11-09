@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iFrame</title>
+</head>
+<body>
+    <h2>Contact Me</h2>
+
+    <form action="#" method="post">
+        <table>
+            <caption>Contact Me Form</caption>
+            <tr>
+                <td>1.</td>
+                <th>Name</th>
+                <td>
+                    <input type="text" name="name" required>
+                </td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <th>Email</th>
+                <td>
+                    <input type="email" name="email" required>
+                </td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <th>Message</th>
+                <td>
+                    <textarea name="message" rows="4" required></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="3">4.</td>
+                <th rowspan="3">Gender</th>
+                <td>
+                    <label for="male-id">Male</label>
+                    <input type="radio" id="male-id" name="gender" value="male">
+                </td>
+            <tr>
+                <td>
+                    <label for="female-id">Female</label>
+                    <input type="radio" id="female-id" name="gender" value="female">
+                </td>
+            </tr>
+            <tr>
+                <td>  
+                    <label for="other-id">Other</label>
+                    <input type="radio" id="other-id" name="gender" value="other">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+    
+    <hr>
+
+    <iframe width="750" height="500" src="https://en.wikipedia.org/wiki/India" frameborder="0"></iframe>
+    <iframe width="500" height="500" src="https://www.youtube.com/embed/WfqMmypbACg" title="Vande Mataram (HD) - National Song Of india - Best Patriotic Song" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
